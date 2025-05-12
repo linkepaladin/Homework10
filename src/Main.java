@@ -1,3 +1,4 @@
+import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
         // task 1
@@ -35,5 +36,16 @@ public class Main {
         }
         System.out.print(digits[0]);
         System.out.println();
+
+        // task 4
+
+        System.out.println("Задача 4");
+
+        for (int i = 0; i < numbers.length; i++) {
+            if (numbers[i] % 2 != 0) {
+                numbers[i] = numbers[i] + 1;
+            }
+        }
+        System.out.println(Arrays.toString(numbers));
     }
 }
