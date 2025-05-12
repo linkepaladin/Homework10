@@ -43,7 +43,7 @@ public class Main {
 
         for (int i = 0; i < numbers.length; i++) {
             if (numbers[i] % 2 != 0) {
-                numbers[i] = numbers[i] + 1;
+                numbers[i] += 1;
             }
         }
         System.out.println(Arrays.toString(numbers));
