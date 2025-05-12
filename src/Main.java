@@ -22,6 +22,11 @@ public class Main {
         System.out.print("" + digits[digits.length - 1]);
         System.out.println();
 
+        for (int i = 0; i < chars.length - 1; i++) {
+            System.out.print(chars[i] + ", ");
+        }
+        System.out.print("" + chars [chars.length - 1]);
+        System.out.println();
         // task 3
 
         System.out.println("Задача 3");
@@ -35,6 +40,12 @@ public class Main {
             System.out.print(digits[i] + ", ");
         }
         System.out.print(digits[0]);
+        System.out.println();
+
+        for (int i = chars.length - 1; i > 0; i--) {
+            System.out.print(chars[i] + ", ");
+        }
+        System.out.print(chars[0]);
         System.out.println();
 
         // task 4
